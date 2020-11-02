@@ -1,7 +1,7 @@
 {
 	"name": "Search Engine Toggler",
 	"version": "1.0",
-	"description": "Auto toggle the used search engine when certain keywords are included in the requested URL",
+	"description": "Auto toggle the search engine to be used when certain keywords are included in the requested URL",
 	"manifest_version": 2,
 	"permissions": ["webRequest", "webRequestBlocking", "https://duckduckgo.com/" ],
 	"background": {
