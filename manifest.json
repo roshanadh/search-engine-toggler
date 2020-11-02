@@ -1,0 +1,19 @@
+{
+	"name": "Search Engine Toggler",
+	"version": "1.0",
+	"description": "Auto toggle the used search engine when certain keywords are included in the requested URL",
+	"manifest_version": 2,
+	"permissions": ["webRequest", "webRequestBlocking", "https://duckduckgo.com/" ],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"page_action": {
+		"default_title": "Search Engine Toggler",
+		"default_icon": {
+			"16": "icons/icon16.png",
+			"32": "icons/icon32.png",
+			"64": "icons/icon64.png",
+			"128": "icons/icon128.png"
+		}
+	}
+}
